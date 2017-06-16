@@ -29,3 +29,8 @@ We were having a lot of trouble working with the magnet in the Google Cardboard 
 <p>
 To test how much the magnet sensor reacts to the button activation,I downloaded an application  that shows you the readings of all of the sensors on your phone. I put my phone into the Google Cardboard and tested the button. The change in the magnet sensor reading was within margin of error. I decided that I should check where the magnet sensor is in my phone. I did this by moving the magnet around my phone. I found that my magnet sensor is in the opposite end of the phone. So when you naturally put the phone into the Cardboard the sensor is as far away as it can be from the magnet button. So I put my phone in the cardboard upside-down. I finally started seeing a decent change in the magnet sensor readings when I activated the button. 
 </p>
+
+<h1>Working with MVC’s in Django and ASP.NET</h1>
+<p>
+During this experience I have noticed something about myself when it comes to how I try to learn things. When first working with a Django I went straight to looking at how to use Django without having any knowledge on the concept of a MVC. I made the mistake of not taking a step backwards and looking at the big picture. Instead I started trying to use something that is built using an architecture I know nothing about. I learned that it is important that I look at the tool I’m trying to learn from a low conceptual level. I realized this after having a class on MVC in OOSD. After actually learning about how MVC works everything about how Django and ASP.NET work made sense immediately and I could see how all of the application that have been built work.
+</p>
