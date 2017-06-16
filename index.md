@@ -18,7 +18,7 @@ You can find my documentation for the deployment of Django apps can be found in 
 I had a hard time working with ASP.NET Rest API’s. I made a large mistake when initially making the whole system. I was taking the approach of making the models and then doing the database. This proved to be much more difficult than doing it the other way around. We first built all of the classes for our data model, and then allowed Entity Framework Core (the .NET ORM tool) to create the database. This proved to be very difficult to set up. I struggled to write the LINQ to get the data I needed. After a lot of trying and failing, I asked Patricia for some help. She built an example for us to look at and we sat down and she went through it. She showed us how she built the app. She started by building a database then letting Entity Framework do all the work of creating all of the classes needed to access data.
 </p>
 <p>
-I think that my problem with this task was that I thought that not having to deal with the database would make the API easier to build. This was incorrect. I should have put in the effort to make the database first and then build the API on top of the data.
+I think that my problem with this task was that I thought that not having to deal with the database would make the API easier to build. This was incorrect. I should have put in the effort to make the database first and then build the API on top of the data. You can find what was done here<sup>v</sup>.
 </p>
 
 <h1>Dealing with Google Cardboard Magnet Button</h1>
@@ -34,3 +34,9 @@ To test how much the magnet sensor reacts to the button activation, I downloaded
 <p>
 During this experience I have noticed something about myself when it comes to how I try to learn things. When first working with a Django I went straight to looking at how to use Django without having any knowledge on the concept of a MVC. I made the mistake of not taking a step backwards and looking at the big picture. Instead I started trying to use something that is built using an architecture I know nothing about. I learned that it is important that I look at the tool I’m trying to learn from a low conceptual level. I realized this after having a class on MVC in OOSD. After actually learning about how MVC works everything about how Django and ASP.NET work made sense immediately and I could see how all of the application that have been built work.
 </p>
+
+<sup>i</sup>https://github.com/OtagoPolytechnic/CommSoftTasks/blob/master/Docs/DeployingDjangoApp.docx
+<sup>ii</sup>https://hub.docker.com/r/yuxiaorui/docker-django-rest-framework/
+<sup>iii</sup>https://hub.docker.com/_/python/
+<sup>iv</sup>https://play.google.com/store/apps/details?id=com.wered.sensorsmultitool&hl=en
+<sup>v</sup>https://github.com/OtagoPolytechnic/CommSoftTasks/tree/master/Matt/Core_API/CoreApp
