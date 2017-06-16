@@ -20,3 +20,12 @@ I had a hard time working with ASP.NET Rest API’s. I made a large mistake when
 <p>
 I think that my problem with this task was that I thought that not having to deal with the database would make the API easier to build. This was incorrect. I should have put in the effort to make the database first and then build the API on top of the data.
 </p>
+
+<h1>Dealing with Google Cardboard Magnet Button</h1>
+<p>
+We were having a lot of trouble working with the magnet in the Google Cardboard AR headset. This button is used to add interaction when you are in the virtual environment. The problem with the magnet is that it never works.
+</p>
+<img src="img2.png">
+<p>
+To test how much the magnet sensor reacts to the button activation,I downloaded an application  that shows you the readings of all of the sensors on your phone. I put my phone into the Google Cardboard and tested the button. The change in the magnet sensor reading was within margin of error. I decided that I should check where the magnet sensor is in my phone. I did this by moving the magnet around my phone. I found that my magnet sensor is in the opposite end of the phone. So when you naturally put the phone into the Cardboard the sensor is as far away as it can be from the magnet button. So I put my phone in the cardboard upside-down. I finally started seeing a decent change in the magnet sensor readings when I activated the button. 
+</p>
