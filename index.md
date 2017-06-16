@@ -35,6 +35,7 @@ To test how much the magnet sensor reacts to the button activation, I downloaded
 During this experience I have noticed something about myself when it comes to how I try to learn things. When first working with a Django I went straight to looking at how to use Django without having any knowledge on the concept of a MVC. I made the mistake of not taking a step backwards and looking at the big picture. Instead I started trying to use something that is built using an architecture I know nothing about. I learned that it is important that I look at the tool I’m trying to learn from a low conceptual level. I realized this after having a class on MVC in OOSD. After actually learning about how MVC works everything about how Django and ASP.NET work made sense immediately and I could see how all of the application that have been built work.
 </p>
 
+<h1>References</h1>
 <sup>i</sup>https://github.com/OtagoPolytechnic/CommSoftTasks/blob/master/Docs/DeployingDjangoApp.docx
 <sup>ii</sup>https://hub.docker.com/r/yuxiaorui/docker-django-rest-framework/
 <sup>iii</sup>https://hub.docker.com/_/python/
